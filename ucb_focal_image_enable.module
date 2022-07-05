@@ -1,0 +1,13 @@
+<?php
+/*
++----------+---------+-----------+-------------+----------+-------+------------------------+
+| bundle   | deleted | entity_id | revision_id | langcode | delta | image_styles_target_id |
++----------+---------+-----------+-------------+----------+-------+------------------------+
+| consumer |       0 |         1 |           1 | en       |     0 | focal_ima              |
++----------+---------+-----------+-------------+----------+-------+------------------------+ */
+use Drupal\Core\Database\Database;
+
+function ucb_focal_image_enable_modules_installed() {
+    Database::getConnection()->query("INSERT INTO `consumer__image_styles` VALUES ('consumer',0,1,1,'en',0,'focal_image');")->execute();
+}
+?>
