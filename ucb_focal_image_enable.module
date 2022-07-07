@@ -8,6 +8,6 @@
 use Drupal\Core\Database\Database;
 
 function ucb_focal_image_enable_modules_installed() {
-    Database::getConnection()->query("INSERT INTO `consumer__image_styles` VALUES ('consumer',0,1,1,'en',0,'focal_image');")->execute();
+    Database::getConnection()->query("INSERT INTO `consumer__image_styles` VALUES ('consumer',0,1,1,'en',0,'focal_image');");
 }
 ?>
