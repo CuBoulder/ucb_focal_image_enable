@@ -12,5 +12,5 @@ dependencies:
   - jsonapi_extras
   - consumer_image_styles
 
-version: '1.0.0'
+version: '1.0.1'
 package: 'UCB Focal Image Enable'
