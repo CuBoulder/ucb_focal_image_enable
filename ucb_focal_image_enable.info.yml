@@ -1,7 +1,7 @@
 name: UCB Focal Image Enable
 description: 'Enables focal image styles to be accessible via JSON:API on site-install.'
 type: module
-core_version_requirement: '^8.9 || ^9'
+core_version_requirement: '^9.5 || ^10'
 dependencies:
   - file
   - field
@@ -13,4 +13,4 @@ dependencies:
   - consumer_image_styles
 
 version: '1.0.1'
-package: 'UCB Focal Image Enable'
+package: CU Boulder
