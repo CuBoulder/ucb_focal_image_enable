@@ -10,5 +10,5 @@ use Drupal\Core\Database\Database;
 function ucb_focal_image_enable_install() {
     Database::getConnection()->query("INSERT INTO `consumer__image_styles` VALUES ('consumer',0,1,1,'en',0,'focal_image_square');");
     Database::getConnection()->query("INSERT INTO `consumer__image_styles` VALUES ('consumer',0,1,1,'en',1,'focal_image_wide');");
+    Database::getConnection()->query("INSERT INTO `consumer__image_styles` VALUES ('consumer',0,1,1,'en',2,'large_image_style');");
 }
-?>
