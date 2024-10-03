@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Create developer-sandbox-ci.yml
+  new ci workflow
+---
+
 - ### Adds Full Image to default consumer for JSON:API
   Changes the Issue cover image field to use the Media Library images rather than the default. This change requires creating an additional consumer in `Focal Image Enable` to use un-cropped image styles from JSON:API as well as modifying the Issue Archive build process to use that un-cropped image.
   
